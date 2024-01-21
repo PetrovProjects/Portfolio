@@ -1,14 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 import Nav from "../components/Nav.astro";
+import Projects from "../components/Projects.astro";
+import About from "../components/About.astro";
 import Form from "../components/Form.astro";
 import Footer from "../components/Footer.astro";
+
+import '../components/css/styles.css';
 ---
 
 <Layout title="Portfolio">
 	<Nav />
 	<main>
+		<About />
+		<Projects />
 		<Form />
 	</main>
 	<Footer />
